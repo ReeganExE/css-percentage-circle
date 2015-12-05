@@ -124,7 +124,7 @@
 
     // loop to create all needed elements automatically
     .generate-elements(@n, @i: 1) when (@i =< @n) {
-        &.p@{i} {
+        &[p="@{i}"] {
             & .slice {
                 &:extend(.rect-auto);
             }
@@ -140,7 +140,7 @@
     }
     // loop to rotate all 100 circles
     .generate-rotation(@n, @i: 1) when (@i =< @n) {
-        &.p@{i} .bar {
+        &[p="@{i}"] .bar {
             @degs: (360/100*@i);
             .rotate(~"@{degs}deg");
         }

@@ -1,0 +1,23 @@
+{
+  "name": "css-percentage-circle",
+  "version": "1.0.0",
+  "description": "Pure CSS percentage circle\r ==========================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReeganExE/css-percentage-circle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReeganExE/css-percentage-circle/issues"
+  },
+  "homepage": "https://github.com/ReeganExE/css-percentage-circle#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.5"
+  }
+}
